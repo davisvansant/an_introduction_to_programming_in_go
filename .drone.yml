@@ -12,3 +12,12 @@ steps:
   commands:
   - go run 02_your_first_program/main.go
   - go run 02_your_first_program/name.go
+
+- name: types
+  image: golang:1.14.3
+  commands:
+  - go run 03_types/numbers.go
+  - go run 03_types/strings.go
+  - go run 03_types/booleans.go
+  - go run 03_types/calc.go
+  - go run 03_types/value.go
