@@ -35,3 +35,13 @@ steps:
   - go run 04_variables/value.go
   - go run 04_variables/temp.go
   - go run 04_variables/length.go
+
+- name: control_structures
+  image: golang:1.14.3
+  commands:
+  - go run 05_control_structures/for.go
+  - go run 05_control_structures/if.go
+  - go run 05_control_structures/switch.go
+  - go run 05_control_structures/problem.go
+  - go run 05_control_structures/divisable.go
+  - go run 05_control_structures/fizzer.go
