@@ -1,0 +1,14 @@
+kind: pipeline
+name: default
+
+steps:
+- name: getting_started
+  image: golang:1.14.3
+  commands:
+  - go version
+
+- name: your_first_program
+  image: golang:1.14.3
+  commands:
+  - go run 02_your_first_program/main.go
+  - go run 02_your_first_program/name.go
