@@ -21,3 +21,17 @@ steps:
   - go run 03_types/booleans.go
   - go run 03_types/calc.go
   - go run 03_types/value.go
+
+- name: variables
+  image: golang:1.14.3
+  commands:
+  - go run 04_variables/hello.go
+  - go run 04_variables/strings.go
+  - go run 04_variables/name.go
+  - go run 04_variables/scope.go
+  - go run 04_variables/constants.go
+  - go run 04_variables/multiples.go
+  - go run 04_variables/example.go
+  - go run 04_variables/value.go
+  - go run 04_variables/temp.go
+  - go run 04_variables/length.go
