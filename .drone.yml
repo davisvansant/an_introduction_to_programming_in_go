@@ -80,3 +80,9 @@ steps:
   - go run 08_pointers/new.go
   - go run 08_pointers/value.go
   - go run 08_pointers/swapper.go
+
+- name: structs_and_interfaces
+  image: golang:1.14.3
+  commands:
+  - go run 09_structs_and_interfaces/shapes.go
+  - go run 09_structs_and_interfaces/embedded.go
