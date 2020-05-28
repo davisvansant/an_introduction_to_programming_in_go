@@ -72,3 +72,11 @@ steps:
   - go run 07_functions/greatest.go
   - go run 07_functions/make_odd.go
   - go run 07_functions/fib.go
+
+- name: pointers
+  image: golang:1.14.3
+  commands:
+  - go run 08_pointers/zero.go
+  - go run 08_pointers/new.go
+  - go run 08_pointers/value.go
+  - go run 08_pointers/swapper.go
