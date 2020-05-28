@@ -56,3 +56,19 @@ steps:
   - go run 06_arrays_slices_maps/length.go
   - go run 06_arrays_slices_maps/two_to_five.go
   - go run 06_arrays_slices_maps/smallest.go
+
+- name: functions
+  image: golang:1.14.3
+  commands:
+  - go run 07_functions/second.go
+  - go run 07_functions/multiples.go
+  - go run 07_functions/variadic.go
+  - go run 07_functions/closure.go
+  - go run 07_functions/recursion.go
+  - go run 07_functions/defer.go
+  - go run 07_functions/panic_recover.go
+  - go run 07_functions/sum.go
+  - go run 07_functions/true_or_false.go
+  - go run 07_functions/greatest.go
+  - go run 07_functions/make_odd.go
+  - go run 07_functions/fib.go
