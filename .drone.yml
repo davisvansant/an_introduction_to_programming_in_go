@@ -94,3 +94,8 @@ steps:
   - go run 10_concurrency/channels.go
   - go run 10_concurrency/select.go
   - go run 10_concurrency/sleeper.go
+
+- name: packages
+  image: golang:1.14.3
+  commands:
+  - go run 11_packages/main.go
