@@ -86,3 +86,11 @@ steps:
   commands:
   - go run 09_structs_and_interfaces/shapes.go
   - go run 09_structs_and_interfaces/embedded.go
+
+- name: concurrency
+  image: golang:1.14.3
+  commands:
+  - go run 10_concurrency/goroutines.go
+  - go run 10_concurrency/channels.go
+  - go run 10_concurrency/select.go
+  - go run 10_concurrency/sleeper.go
