@@ -104,3 +104,8 @@ steps:
   image: golang:1.14.3
   commands:
   - go test ./11_packages/math -v
+
+- name: the_core_packages
+  image: golang:1.14.3
+  commands:
+  - go run 13_the_core_packages/strings.go
