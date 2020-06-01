@@ -109,3 +109,4 @@ steps:
   image: golang:1.14.3
   commands:
   - go run 13_the_core_packages/strings.go
+  - go run 13_the_core_packages/input_output.go
