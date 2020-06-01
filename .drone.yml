@@ -99,3 +99,8 @@ steps:
   image: golang:1.14.3
   commands:
   - go run 11_packages/main.go
+
+- name: testing
+  image: golang:1.14.3
+  commands:
+  - go test ./11_packages/math -v
