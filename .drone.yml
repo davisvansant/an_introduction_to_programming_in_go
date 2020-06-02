@@ -115,3 +115,6 @@ steps:
   - go run 13_the_core_packages/errors.go
   - go run 13_the_core_packages/list.go
   - go run 13_the_core_packages/sort.go
+  - go run 13_the_core_packages/hash.go
+  - go run 13_the_core_packages/hash_files.go
+  - go run 13_the_core_packages/sha1.go
