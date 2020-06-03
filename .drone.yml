@@ -118,3 +118,5 @@ steps:
   - go run 13_the_core_packages/hash.go
   - go run 13_the_core_packages/hash_files.go
   - go run 13_the_core_packages/sha1.go
+  - go run 13_the_core_packages/tcp.go
+  - go run 13_the_core_packages/rpc.go
